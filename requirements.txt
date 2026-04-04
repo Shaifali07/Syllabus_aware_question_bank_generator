@@ -1,0 +1,9 @@
+pypdf
+langchain_community
+langchain
+langchain-text-splitters
+langchain_huggingface
+langchain_chroma
+langchain-groq
+streamlit
+xlsxwriter
