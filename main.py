@@ -35,7 +35,7 @@ if st.button("Submit"):
         unit_names = []
         for t in units_extracted["Units"]:
             # print(units_extracted)
-            unit_names.append(t["Units"])
+            unit_names.append(t["unit_name"])
 
         result = []
         if uploaded_files:
