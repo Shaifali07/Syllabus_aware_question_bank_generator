@@ -34,7 +34,8 @@ if st.button("Submit"):
         units_extracted = extract_syllabus(syllabus)
         unit_names = []
         for t in units_extracted["Units"]:
-            unit_names.append(t["unit_name"])
+            # print(units_extracted)
+            unit_names.append(t["Units"])
 
         result = []
         if uploaded_files:
